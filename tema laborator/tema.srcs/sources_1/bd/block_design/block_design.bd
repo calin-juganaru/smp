@@ -1,0 +1,307 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x65E20B0691986D11",
+      "device": "xc7z020clg484-1",
+      "name": "block_design",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "MUX_0": "",
+      "ecran_1_0": "",
+      "ecran_2_0": "",
+      "senzor_2_0": "",
+      "senzor_1_0": "",
+      "Arduino_ATmega328_0": ""
+    },
+    "ports": {
+      "CLK_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "RST_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "block_design_CLK_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "RST_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "MUX_0": {
+        "vlnv": "xilinx.com:module_ref:MUX:1.0",
+        "xci_name": "block_design_MUX_0_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "MUX",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "OUTP": {
+            "direction": "O"
+          },
+          "IN_1": {
+            "direction": "I"
+          },
+          "IN_2": {
+            "direction": "I"
+          }
+        }
+      },
+      "ecran_1_0": {
+        "vlnv": "xilinx.com:module_ref:ecran_1:1.0",
+        "xci_name": "block_design_ecran_1_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ecran_1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "SDA": {
+            "direction": "I"
+          },
+          "SCL": {
+            "direction": "I"
+          }
+        }
+      },
+      "ecran_2_0": {
+        "vlnv": "xilinx.com:module_ref:ecran_2:1.0",
+        "xci_name": "block_design_ecran_2_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ecran_2",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "SDA": {
+            "direction": "I"
+          },
+          "SCL": {
+            "direction": "I"
+          }
+        }
+      },
+      "senzor_2_0": {
+        "vlnv": "xilinx.com:module_ref:senzor_2:1.0",
+        "xci_name": "block_design_senzor_2_0_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "senzor_2",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "MISO": {
+            "direction": "O"
+          },
+          "MOSI": {
+            "direction": "I"
+          },
+          "CLK": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "CS": {
+            "direction": "I"
+          }
+        }
+      },
+      "senzor_1_0": {
+        "vlnv": "xilinx.com:module_ref:senzor_1:1.0",
+        "xci_name": "block_design_senzor_1_0_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "senzor_1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "MISO": {
+            "direction": "O"
+          },
+          "MOSI": {
+            "direction": "I"
+          },
+          "CLK": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "CS": {
+            "direction": "I"
+          }
+        }
+      },
+      "Arduino_ATmega328_0": {
+        "vlnv": "xilinx.com:module_ref:Arduino_ATmega328:1.0",
+        "xci_name": "block_design_Arduino_ATmega328_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Arduino_ATmega328",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "RST",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "block_design_CLK_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "RST": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "SDA": {
+            "direction": "O"
+          },
+          "SCL": {
+            "direction": "O"
+          },
+          "MISO": {
+            "direction": "I"
+          },
+          "MOSI": {
+            "direction": "O"
+          },
+          "SCLK": {
+            "direction": "O",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "",
+                "value_src": "weak"
+              },
+              "FREQ_HZ": {
+                "value": "",
+                "value_src": "weak"
+              },
+              "PHASE": {
+                "value": "",
+                "value_src": "weak"
+              }
+            }
+          },
+          "CS1": {
+            "direction": "O"
+          },
+          "CS2": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "microcontrolor_0_MOSI": {
+        "ports": [
+          "Arduino_ATmega328_0/MOSI",
+          "senzor_2_0/MOSI",
+          "senzor_1_0/MOSI"
+        ]
+      },
+      "microcontrolor_0_SCLK": {
+        "ports": [
+          "Arduino_ATmega328_0/SCLK",
+          "senzor_2_0/CLK",
+          "senzor_1_0/CLK"
+        ]
+      },
+      "senzor_1_0_MISO": {
+        "ports": [
+          "senzor_1_0/MISO",
+          "MUX_0/IN_1"
+        ]
+      },
+      "senzor_2_0_MISO": {
+        "ports": [
+          "senzor_2_0/MISO",
+          "MUX_0/IN_2"
+        ]
+      },
+      "microcontrolor_0_SDA": {
+        "ports": [
+          "Arduino_ATmega328_0/SDA",
+          "ecran_1_0/SDA",
+          "ecran_2_0/SDA"
+        ]
+      },
+      "microcontrolor_0_SCL": {
+        "ports": [
+          "Arduino_ATmega328_0/SCL",
+          "ecran_1_0/SCL",
+          "ecran_2_0/SCL"
+        ]
+      },
+      "MUX_0_OUTP": {
+        "ports": [
+          "MUX_0/OUTP",
+          "Arduino_ATmega328_0/MISO"
+        ]
+      },
+      "CLK_0_1": {
+        "ports": [
+          "CLK_0",
+          "Arduino_ATmega328_0/CLK"
+        ]
+      },
+      "Arduino_ATmega328_0_CS1": {
+        "ports": [
+          "Arduino_ATmega328_0/CS1",
+          "senzor_1_0/CS"
+        ]
+      },
+      "Arduino_ATmega328_0_CS2": {
+        "ports": [
+          "Arduino_ATmega328_0/CS2",
+          "senzor_2_0/CS"
+        ]
+      },
+      "RST_0_1": {
+        "ports": [
+          "RST_0",
+          "Arduino_ATmega328_0/RST"
+        ]
+      }
+    }
+  }
+}

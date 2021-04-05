@@ -1,0 +1,283 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x596D1E5C596D1E5C",
+      "device": "xc7z020clg484-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "PIC16F873_0": "",
+      "T74LS373_0": "",
+      "addr_cat_0": "",
+      "m62256_0": "",
+      "m62256_1": "",
+      "splitter_0": ""
+    },
+    "ports": {
+      "GND": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "PIC16F873_0": {
+        "vlnv": "xilinx.com:module_ref:PIC16F873:1.0",
+        "xci_name": "design_1_PIC16F873_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "PIC16F873",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "porta": {
+            "direction": "O",
+            "left": "5",
+            "right": "0"
+          },
+          "portb": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "portbw": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "portc": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "T74LS373_0": {
+        "vlnv": "xilinx.com:module_ref:T74LS373:1.0",
+        "xci_name": "design_1_T74LS373_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "T74LS373",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "data_out": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "dat": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "oe": {
+            "direction": "I"
+          },
+          "le": {
+            "direction": "I"
+          }
+        }
+      },
+      "addr_cat_0": {
+        "vlnv": "xilinx.com:module_ref:addr_cat:1.0",
+        "xci_name": "design_1_addr_cat_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "addr_cat",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "portb": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "portc": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "addr": {
+            "direction": "O",
+            "left": "14",
+            "right": "0"
+          }
+        }
+      },
+      "m62256_0": {
+        "vlnv": "xilinx.com:module_ref:m62256:1.0",
+        "xci_name": "design_1_m62256_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "m62256",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "dat": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "datw": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "adr": {
+            "direction": "I",
+            "left": "14",
+            "right": "0"
+          },
+          "ce": {
+            "direction": "I"
+          },
+          "oe": {
+            "direction": "I"
+          },
+          "we": {
+            "direction": "I"
+          }
+        }
+      },
+      "m62256_1": {
+        "vlnv": "xilinx.com:module_ref:m62256:1.0",
+        "xci_name": "design_1_m62256_1_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "m62256",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "dat": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "datw": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "adr": {
+            "direction": "I",
+            "left": "14",
+            "right": "0"
+          },
+          "ce": {
+            "direction": "I"
+          },
+          "oe": {
+            "direction": "I"
+          },
+          "we": {
+            "direction": "I"
+          }
+        }
+      },
+      "splitter_0": {
+        "vlnv": "xilinx.com:module_ref:splitter:1.0",
+        "xci_name": "design_1_splitter_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "splitter",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "porta": {
+            "direction": "I",
+            "left": "5",
+            "right": "0"
+          },
+          "portc": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "le": {
+            "direction": "O"
+          },
+          "we": {
+            "direction": "O"
+          },
+          "OE": {
+            "direction": "O"
+          },
+          "notOE": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "PIC16F873_0_porta": {
+        "ports": [
+          "PIC16F873_0/porta",
+          "splitter_0/porta"
+        ]
+      },
+      "splitter_0_le": {
+        "ports": [
+          "splitter_0/le",
+          "T74LS373_0/le"
+        ]
+      },
+      "splitter_0_we": {
+        "ports": [
+          "splitter_0/we",
+          "m62256_0/we",
+          "m62256_1/we"
+        ]
+      },
+      "PIC16F873_0_portc": {
+        "ports": [
+          "PIC16F873_0/portc",
+          "addr_cat_0/portc",
+          "splitter_0/portc"
+        ]
+      },
+      "splitter_0_notOE": {
+        "ports": [
+          "splitter_0/notOE",
+          "m62256_0/ce",
+          "m62256_0/oe"
+        ]
+      },
+      "splitter_0_OE": {
+        "ports": [
+          "splitter_0/OE",
+          "m62256_1/ce",
+          "m62256_1/oe"
+        ]
+      },
+      "addr_cat_0_addr": {
+        "ports": [
+          "addr_cat_0/addr",
+          "m62256_0/adr",
+          "m62256_1/adr"
+        ]
+      },
+      "PIC16F873_0_portb": {
+        "ports": [
+          "PIC16F873_0/portb",
+          "m62256_0/datw",
+          "m62256_1/datw",
+          "T74LS373_0/dat"
+        ]
+      },
+      "T74LS373_0_out": {
+        "ports": [
+          "T74LS373_0/data_out",
+          "addr_cat_0/portb"
+        ]
+      },
+      "oe_0_1": {
+        "ports": [
+          "GND",
+          "T74LS373_0/oe"
+        ]
+      }
+    }
+  }
+}

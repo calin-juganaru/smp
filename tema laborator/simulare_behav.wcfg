@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simulare_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="simulare" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4000001fs"></ZoomEndTime>
+      <Cursor1Time time="2240000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="82"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wave_markers>
+      <marker time="160000" label="" />
+      <marker time="479960" label="" />
+      <marker time="320000" label="" />
+      <marker time="640000" label="" />
+      <marker time="800000" label="" />
+      <marker time="960352" label="" />
+      <marker time="1120000" label="" />
+      <marker time="1280000" label="" />
+      <marker time="1440000" label="" />
+      <marker time="1600000" label="" />
+      <marker time="1759660" label="" />
+      <marker time="1920000" label="" />
+      <marker time="2080000" label="" />
+      <marker time="2240000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/simulare/top/block_design_i/microcontrolor_0/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare/top/block_design_i/microcontrolor_0/CS1" type="logic">
+      <obj_property name="ElementShortName">CS1</obj_property>
+      <obj_property name="ObjectShortName">CS1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare/top/block_design_i/microcontrolor_0/CS2" type="logic">
+      <obj_property name="ElementShortName">CS2</obj_property>
+      <obj_property name="ObjectShortName">CS2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare/top/block_design_i/microcontrolor_0/MOSI" type="logic">
+      <obj_property name="ElementShortName">MOSI</obj_property>
+      <obj_property name="ObjectShortName">MOSI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare/top/block_design_i/microcontrolor_0/MISO" type="logic">
+      <obj_property name="ElementShortName">MISO</obj_property>
+      <obj_property name="ObjectShortName">MISO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare/top/block_design_i/senzor_1_0/inst/MISO" type="logic">
+      <obj_property name="ElementShortName">MISO</obj_property>
+      <obj_property name="ObjectShortName">MISO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare/top/block_design_i/senzor_2_0/inst/MISO" type="logic">
+      <obj_property name="ElementShortName">MISO</obj_property>
+      <obj_property name="ObjectShortName">MISO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare/top/block_design_i/ecran_1_0/inst/SCL" type="logic">
+      <obj_property name="ElementShortName">SCL</obj_property>
+      <obj_property name="ObjectShortName">SCL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare/top/block_design_i/ecran_1_0/inst/SDA" type="logic">
+      <obj_property name="ElementShortName">SDA</obj_property>
+      <obj_property name="ObjectShortName">SDA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare/top/block_design_i/ecran_1_0/inst/VALUE" type="array">
+      <obj_property name="ElementShortName">VALUE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">VALUE[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare/top/block_design_i/ecran_2_0/inst/VALUE" type="array">
+      <obj_property name="ElementShortName">VALUE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">VALUE[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare/top/block_design_i/ecran_1_0/inst/aux" type="array">
+      <obj_property name="ElementShortName">aux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aux[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare/top/block_design_i/ecran_1_0/inst/ticks" type="array">
+      <obj_property name="ElementShortName">ticks[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ticks[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare/top/block_design_i/microcontrolor_0/inst/ticks" type="array">
+      <obj_property name="ElementShortName">ticks[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ticks[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare/top/block_design_i/microcontrolor_0/inst/last_value" type="array">
+      <obj_property name="ElementShortName">last_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">last_value[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

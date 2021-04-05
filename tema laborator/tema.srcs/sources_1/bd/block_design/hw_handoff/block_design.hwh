@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Jan 27 09:48:12 2021" VIVADOVERSION="2020.1">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zedboard:part0:1.0" DEVICE="7z020" NAME="block_design" PACKAGE="clg484" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK_0" SIGIS="clk" SIGNAME="External_Ports_CLK_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Arduino_ATmega328_0" PORT="CLK"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="RST_0" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_RST_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Arduino_ATmega328_0" PORT="RST"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/Arduino_ATmega328_0" HWVERSION="1.0" INSTANCE="Arduino_ATmega328_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Arduino_ATmega328" VLNV="xilinx.com:module_ref:Arduino_ATmega328:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="block_design_Arduino_ATmega328_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="External_Ports_CLK_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="RST" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_RST_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="RST_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SDA" SIGIS="undef" SIGNAME="Arduino_ATmega328_0_SDA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ecran_1_0" PORT="SDA"/>
+            <CONNECTION INSTANCE="ecran_2_0" PORT="SDA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SCL" SIGIS="undef" SIGNAME="Arduino_ATmega328_0_SCL">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ecran_1_0" PORT="SCL"/>
+            <CONNECTION INSTANCE="ecran_2_0" PORT="SCL"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="MISO" SIGIS="undef" SIGNAME="MUX_0_OUTP">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX_0" PORT="OUTP"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="MOSI" SIGIS="undef" SIGNAME="Arduino_ATmega328_0_MOSI">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="senzor_2_0" PORT="MOSI"/>
+            <CONNECTION INSTANCE="senzor_1_0" PORT="MOSI"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SCLK" SIGIS="undef" SIGNAME="Arduino_ATmega328_0_SCLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="senzor_2_0" PORT="CLK"/>
+            <CONNECTION INSTANCE="senzor_1_0" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="CS1" SIGIS="undef" SIGNAME="Arduino_ATmega328_0_CS1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="senzor_1_0" PORT="CS"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="CS2" SIGIS="undef" SIGNAME="Arduino_ATmega328_0_CS2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="senzor_2_0" PORT="CS"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/MUX_0" HWVERSION="1.0" INSTANCE="MUX_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MUX" VLNV="xilinx.com:module_ref:MUX:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="block_design_MUX_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="OUTP" SIGIS="undef" SIGNAME="MUX_0_OUTP">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Arduino_ATmega328_0" PORT="MISO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="IN_1" SIGIS="undef" SIGNAME="senzor_1_0_MISO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="senzor_1_0" PORT="MISO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="IN_2" SIGIS="undef" SIGNAME="senzor_2_0_MISO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="senzor_2_0" PORT="MISO"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ecran_1_0" HWVERSION="1.0" INSTANCE="ecran_1_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ecran_1" VLNV="xilinx.com:module_ref:ecran_1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="block_design_ecran_1_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="SDA" SIGIS="undef" SIGNAME="Arduino_ATmega328_0_SDA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Arduino_ATmega328_0" PORT="SDA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="SCL" SIGIS="undef" SIGNAME="Arduino_ATmega328_0_SCL">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Arduino_ATmega328_0" PORT="SCL"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ecran_2_0" HWVERSION="1.0" INSTANCE="ecran_2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ecran_2" VLNV="xilinx.com:module_ref:ecran_2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="block_design_ecran_2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="SDA" SIGIS="undef" SIGNAME="Arduino_ATmega328_0_SDA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Arduino_ATmega328_0" PORT="SDA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="SCL" SIGIS="undef" SIGNAME="Arduino_ATmega328_0_SCL">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Arduino_ATmega328_0" PORT="SCL"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/senzor_1_0" HWVERSION="1.0" INSTANCE="senzor_1_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="senzor_1" VLNV="xilinx.com:module_ref:senzor_1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="block_design_senzor_1_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="MISO" SIGIS="undef" SIGNAME="senzor_1_0_MISO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX_0" PORT="IN_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="MOSI" SIGIS="undef" SIGNAME="Arduino_ATmega328_0_MOSI">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Arduino_ATmega328_0" PORT="MOSI"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="Arduino_ATmega328_0_SCLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Arduino_ATmega328_0" PORT="SCLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CS" SIGIS="undef" SIGNAME="Arduino_ATmega328_0_CS1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Arduino_ATmega328_0" PORT="CS1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/senzor_2_0" HWVERSION="1.0" INSTANCE="senzor_2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="senzor_2" VLNV="xilinx.com:module_ref:senzor_2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="block_design_senzor_2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="MISO" SIGIS="undef" SIGNAME="senzor_2_0_MISO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX_0" PORT="IN_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="MOSI" SIGIS="undef" SIGNAME="Arduino_ATmega328_0_MOSI">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Arduino_ATmega328_0" PORT="MOSI"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="Arduino_ATmega328_0_SCLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Arduino_ATmega328_0" PORT="SCLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CS" SIGIS="undef" SIGNAME="Arduino_ATmega328_0_CS2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Arduino_ATmega328_0" PORT="CS2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

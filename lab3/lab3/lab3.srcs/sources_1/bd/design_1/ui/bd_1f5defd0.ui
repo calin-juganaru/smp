@@ -1,0 +1,40 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.16629",
+   "Default View_TopLeft":"62,47",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port CLK_0 -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace inst splitter_0 -pg 1 -lvl 3 -x 820 -y 610 -defaultsOSRD
+preplace inst CS_split_0 -pg 1 -lvl 3 -x 820 -y 510 -defaultsOSRD
+preplace inst x2mx9_sdramfsm_0 -pg 1 -lvl 4 -x 1100 -y 510 -defaultsOSRD
+preplace inst powerpcfsm_0 -pg 1 -lvl 1 -x 200 -y 200 -defaultsOSRD
+preplace inst mpc106fsm_0 -pg 1 -lvl 2 -x 490 -y 190 -defaultsOSRD
+preplace netloc CLK_0_1 1 0 4 20 330 350 450 NJ 450 950J
+preplace netloc mpc106fsm_0_WE 1 2 2 N 300 940J
+preplace netloc powerpcfsm_0_WT 1 1 1 360 260n
+preplace netloc mpc106fsm_0_TA 1 0 3 60 400 NJ 400 630
+preplace netloc powerpcfsm_0_TSIZ 1 1 1 320 230n
+preplace netloc powerpcfsm_0_TS 1 1 1 340 210n
+preplace netloc mpc106fsm_0_DH 1 0 3 50 390 NJ 390 670
+preplace netloc mpc106fsm_0_SDCAS 1 2 2 N 200 980J
+preplace netloc mpc106fsm_0_SDRAS 1 2 2 N 240 960J
+preplace netloc mpc106fsm_0_SDMA 1 2 2 N 220 970J
+preplace netloc Net1 1 1 2 330J 20 650
+preplace netloc splitter_0_DQ 1 3 1 980J 530n
+preplace netloc CS_split_0_CS_bit 1 3 1 NJ 510
+preplace netloc powerpcfsm_0_TBST 1 1 1 340 190n
+preplace netloc powerpcfsm_0_DL 1 1 1 340 170n
+preplace netloc powerpcfsm_0_BR 1 1 1 350 140n
+preplace netloc mpc106fsm_0_BG0 1 0 3 70 360 NJ 360 620
+preplace netloc mpc106fsm_0_ARTRY 1 0 3 30 370 NJ 370 660
+preplace netloc mpc106fsm_0_AACK 1 0 3 70 10 NJ 10 680
+preplace netloc mpc106fsm_0_DBG0 1 0 3 40 380 NJ 380 640
+preplace netloc mpc106fsm_0_CS 1 2 1 680 140n
+preplace netloc powerpcfsm_0_A 1 1 1 320 120n
+levelinfo -pg 1 0 200 490 820 1100 1220
+pagesize -pg 1 -db -bbox -sgen -100 0 1220 690
+"
+}
+0

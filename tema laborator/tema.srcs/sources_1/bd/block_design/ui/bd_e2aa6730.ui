@@ -1,0 +1,31 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.741667",
+   "Default View_TopLeft":"-326,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port CLK_0 -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace port RST_0 -pg 1 -lvl 0 -x 0 -y 340 -defaultsOSRD
+preplace inst MUX_0 -pg 1 -lvl 2 -x 340 -y 230 -defaultsOSRD
+preplace inst ecran_1_0 -pg 1 -lvl 4 -x 780 -y 180 -defaultsOSRD
+preplace inst ecran_2_0 -pg 1 -lvl 4 -x 780 -y 300 -defaultsOSRD
+preplace inst senzor_2_0 -pg 1 -lvl 1 -x 150 -y 240 -defaultsOSRD
+preplace inst senzor_1_0 -pg 1 -lvl 1 -x 150 -y 80 -defaultsOSRD
+preplace inst Arduino_ATmega328_0 -pg 1 -lvl 3 -x 540 -y 340 -defaultsOSRD
+preplace netloc microcontrolor_0_MOSI 1 0 4 30 450 NJ 450 NJ 450 670
+preplace netloc microcontrolor_0_SCLK 1 0 4 40 460 NJ 460 NJ 460 660
+preplace netloc senzor_1_0_MISO 1 1 1 250 80n
+preplace netloc senzor_2_0_MISO 1 1 1 N 240
+preplace netloc microcontrolor_0_SDA 1 3 1 690 170n
+preplace netloc microcontrolor_0_SCL 1 3 1 700 190n
+preplace netloc MUX_0_OUTP 1 2 1 430 230n
+preplace netloc CLK_0_1 1 0 3 20J 320 NJ 320 NJ
+preplace netloc Arduino_ATmega328_0_CS1 1 0 4 50 160 NJ 160 NJ 160 680
+preplace netloc Arduino_ATmega328_0_CS2 1 0 4 50 470 NJ 470 NJ 470 650
+preplace netloc RST_0_1 1 0 3 NJ 340 NJ 340 NJ
+levelinfo -pg 1 0 150 340 540 780 870
+pagesize -pg 1 -db -bbox -sgen -90 0 870 480
+"
+}
+0

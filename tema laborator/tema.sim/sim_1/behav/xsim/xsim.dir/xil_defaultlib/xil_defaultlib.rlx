@@ -1,0 +1,20 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/Linux/smp/tema laborator/tema.ip_user_files/bd/block_design/ip/block_design_Arduino_ATmega328_0_0/sim/block_design_Arduino_ATmega328_0_0.v,1611733692,verilog,,D:/Linux/smp/tema laborator/tema.ip_user_files/bd/block_design/sim/block_design.v,,block_design_Arduino_ATmega328_0_0,,,,,,,,
+D:/Linux/smp/tema laborator/tema.ip_user_files/bd/block_design/ip/block_design_MUX_0_1/sim/block_design_MUX_0_1.v,1609938767,verilog,,D:/Linux/smp/tema laborator/tema.ip_user_files/bd/block_design/ip/block_design_ecran_1_0_0/sim/block_design_ecran_1_0_0.v,,block_design_MUX_0_1,,,,,,,,
+D:/Linux/smp/tema laborator/tema.ip_user_files/bd/block_design/ip/block_design_ecran_1_0_0/sim/block_design_ecran_1_0_0.v,1609952678,verilog,,D:/Linux/smp/tema laborator/tema.ip_user_files/bd/block_design/ip/block_design_ecran_2_0_0/sim/block_design_ecran_2_0_0.v,,block_design_ecran_1_0_0,,,,,,,,
+D:/Linux/smp/tema laborator/tema.ip_user_files/bd/block_design/ip/block_design_ecran_2_0_0/sim/block_design_ecran_2_0_0.v,1611135915,verilog,,D:/Linux/smp/tema laborator/tema.ip_user_files/bd/block_design/ip/block_design_Arduino_ATmega328_0_0/sim/block_design_Arduino_ATmega328_0_0.v,,block_design_ecran_2_0_0,,,,,,,,
+D:/Linux/smp/tema laborator/tema.ip_user_files/bd/block_design/ip/block_design_senzor_1_0_1/sim/block_design_senzor_1_0_1.v,1609952678,verilog,,D:/Linux/smp/tema laborator/tema.ip_user_files/bd/block_design/ip/block_design_MUX_0_1/sim/block_design_MUX_0_1.v,,block_design_senzor_1_0_1,,,,,,,,
+D:/Linux/smp/tema laborator/tema.ip_user_files/bd/block_design/ip/block_design_senzor_2_0_1/sim/block_design_senzor_2_0_1.v,1610011735,verilog,,D:/Linux/smp/tema laborator/tema.ip_user_files/bd/block_design/ip/block_design_senzor_1_0_1/sim/block_design_senzor_1_0_1.v,,block_design_senzor_2_0_1,,,,,,,,
+D:/Linux/smp/tema laborator/tema.ip_user_files/bd/block_design/sim/block_design.v,1611135914,verilog,,D:/Linux/smp/tema laborator/tema.srcs/sources_1/bd/block_design/hdl/block_design_wrapper.v,,block_design,,,,,,,,
+D:/Linux/smp/tema laborator/tema.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/Linux/smp/tema laborator/tema.srcs/sim_1/new/simulare.v,1611734233,verilog,,,,simulare,,,,,,,,
+D:/Linux/smp/tema laborator/tema.srcs/sources_1/bd/block_design/hdl/block_design_wrapper.v,1611734608,verilog,,D:/Linux/smp/tema laborator/tema.srcs/sim_1/new/simulare.v,,block_design_wrapper,,,,,,,,
+D:/Linux/smp/tema laborator/tema.srcs/sources_1/new/Arduino_ATmega328.v,1611733493,verilog,,D:/Linux/smp/tema laborator/tema.ip_user_files/bd/block_design/ip/block_design_senzor_2_0_1/sim/block_design_senzor_2_0_1.v,,Arduino_ATmega328,,,,,,,,
+D:/Linux/smp/tema laborator/tema.srcs/sources_1/new/MUX.v,1609938711,verilog,,D:/Linux/smp/tema laborator/tema.srcs/sources_1/new/ecran_1.v,,MUX,,,,,,,,
+D:/Linux/smp/tema laborator/tema.srcs/sources_1/new/ecran_1.v,1611733275,verilog,,D:/Linux/smp/tema laborator/tema.srcs/sources_1/new/ecran_2.v,,ecran_1,,,,,,,,
+D:/Linux/smp/tema laborator/tema.srcs/sources_1/new/ecran_2.v,1611733280,verilog,,D:/Linux/smp/tema laborator/tema.srcs/sources_1/new/Arduino_ATmega328.v,,ecran_2,,,,,,,,
+D:/Linux/smp/tema laborator/tema.srcs/sources_1/new/senzor_1.v,1611733287,verilog,,D:/Linux/smp/tema laborator/tema.srcs/sources_1/new/MUX.v,,senzor_1,,,,,,,,
+D:/Linux/smp/tema laborator/tema.srcs/sources_1/new/senzor_2.v,1611733284,verilog,,D:/Linux/smp/tema laborator/tema.srcs/sources_1/new/senzor_1.v,,senzor_2,,,,,,,,

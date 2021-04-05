@@ -1,0 +1,25 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.05",
+   "Default View_TopLeft":"-309,-19",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace inst arbiter_0 -pg 1 -lvl 2 -x 320 -y 120 -defaultsOSRD
+preplace inst bus_0 -pg 1 -lvl 1 -x 120 -y 310 -defaultsOSRD
+preplace inst dsp_0 -pg 1 -lvl 1 -x 120 -y 100 -defaultsOSRD
+preplace netloc arbiter_0_req 1 0 3 30 240 NJ 240 450
+preplace netloc arbiter_0_lock 1 0 3 20 230 NJ 230 420
+preplace netloc bus_0_gnt 1 1 1 210 140n
+preplace netloc dsp_0_br 1 1 1 N 80
+preplace netloc arbiter_0_bb 1 0 3 10 10 NJ 10 450
+preplace netloc dsp_0_ba 1 1 1 N 100
+preplace netloc arbiter_0_bg 1 0 3 30 220 NJ 220 430
+preplace netloc dsp_0_bl 1 1 1 N 120
+preplace netloc arbiter_0_clk 1 0 3 20 20 NJ 20 440
+preplace netloc bus_0_clk 1 1 1 220 160n
+levelinfo -pg 1 -10 120 320 470
+pagesize -pg 1 -db -bbox -sgen -10 0 470 380
+"
+}
+

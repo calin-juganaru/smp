@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/Linux/smp/lab1/SimulatedDiagramResultTim.v,1603803380,verilog,,,,syncad_top,,,,,,,,
+D:/Linux/smp/lab1/core_logic.v,1017889286,verilog,,D:/Linux/smp/lab1/graphic_controller.v,,core_logic,,,,,,,,
+D:/Linux/smp/lab1/graphic_controller.v,1603801663,verilog,,D:/Linux/smp/lab1/sim.v,,graphic_controller,,,,,,,,
+D:/Linux/smp/lab1/lab1agp2pci/lab1agp2pci.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/Linux/smp/lab1/sim.v,1603803270,verilog,,D:/Linux/smp/lab1/SimulatedDiagramResultTim.v,,sim,,,,,,,,

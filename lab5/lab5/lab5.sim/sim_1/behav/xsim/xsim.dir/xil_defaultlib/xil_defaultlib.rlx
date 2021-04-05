@@ -1,0 +1,15 @@
+0.6
+2019.2
+Dec  5 2019
+04:51:02
+/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab4.V,1607514620,verilog,,/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_PIC16F873_0_0/sim/design_1_PIC16F873_0_0.v,,PIC16F873;T74LS04;T74LS373;addr_cat;m62256;splitter,,,,,,,,
+/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_PIC16F873_0_0/sim/design_1_PIC16F873_0_0.v,1607514681,verilog,,/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_T74LS373_0_0/sim/design_1_T74LS373_0_0.v,,design_1_PIC16F873_0_0,,,,,,,,
+/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_T74LS373_0_0/sim/design_1_T74LS373_0_0.v,1607514681,verilog,,/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_m62256_0_0/sim/design_1_m62256_0_0.v,,design_1_T74LS373_0_0,,,,,,,,
+/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_addr_cat_0_0/sim/design_1_addr_cat_0_0.v,1607514681,verilog,,/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_splitter_0_0/sim/design_1_splitter_0_0.v,,design_1_addr_cat_0_0,,,,,,,,
+/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_m62256_0_0/sim/design_1_m62256_0_0.v,1607514681,verilog,,/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_m62256_1_0/sim/design_1_m62256_1_0.v,,design_1_m62256_0_0,,,,,,,,
+/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_m62256_1_0/sim/design_1_m62256_1_0.v,1607514681,verilog,,/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_addr_cat_0_0/sim/design_1_addr_cat_0_0.v,,design_1_m62256_1_0,,,,,,,,
+/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_splitter_0_0/sim/design_1_splitter_0_0.v,1607514681,verilog,,/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.ip_user_files/bd/design_1/sim/design_1.v,,design_1_splitter_0_0,,,,,,,,
+/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.ip_user_files/bd/design_1/sim/design_1.v,1607514680,verilog,,/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,,design_1,,,,,,,,
+/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.srcs/sim_1/new/test.v,1607514398,verilog,,,,test,,,,,,,,
+/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,1607514681,verilog,,/mnt/D6C8D6E4C8D6C243/Linux/smp/lab5/lab5/lab5.srcs/sim_1/new/test.v,,design_1_wrapper,,,,,,,,
